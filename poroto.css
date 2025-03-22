@@ -92,3 +92,10 @@ section{
     color: #5EEAD4;
     font-weight: 500;
 }
+.icon{
+    list-style: none;
+    display: flex;
+    margin-top: 88px;
+    column-gap: 15px;
+    color: #ffffff;
+}
