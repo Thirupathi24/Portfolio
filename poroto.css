@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(15 23 42);
+    font-family: system-ui;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+section{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+.con{
+    margin-right:80px;
+    color: rgb(148 163 184);
+    font-size: 18px;
+}
+.logo,.con{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+.logo{
+    line-height: 50px;
+    position: fixed;
+}
+.logo h1{
+    color: #e2e8f0;
+    font-size: 45px;
+}
+.logo .int{
+    display: none;
+    margin-left: 240px;
+    border: 1px solid #ffffff;
+    background-color: rgb(20, 20, 20);
+    color: #ffffff;
+    padding: 0px 3px;
+}
+.hov:hover .int{
+    display: inline;
+}
+.logo h3{
+    color: #e2e8f0;
+    font-weight: 400;
+    font-size: 1.25rem;
+}
+.logo p{
+    color: rgb(148 163 184);
+    line-height: 23px;
+}
+.logo .about ul,a{
+    color: #e2e8f0;
+    font-weight: bold;
+    list-style: none;
+    text-decoration: none;
+}
+.logo .about ul li:nth-child(2){
+    color: rgb(148 163 184);
+}
+.logo .about ul li:nth-child(3){
+    color: rgb(148 163 184);
+}
+.logo .about ul li:nth-child(2):hover{
+    color: #e2e8f0;
+    transform: translateX(20px);
+}
+.logo .about ul li:nth-child(1):hover{
+    color: #e2e8f0;
+    transform: translateX(20px);
+}
+.logo .about ul li:nth-child(3):hover{
+    color: #e2e8f0;
+    transform: translateX(20px);
+}
+.logo .about{
+    position: relative;
+    top: 70px;
+}
+.con ul{
+    margin-left: 30px;
+}
+.con button{
+    padding: 4px 12px;
+    background-color: rgba(45, 212, 191, .1);
+    border-radius: 30px;
+    border: none;
+    color: #5EEAD4;
+    font-weight: 500;
+}
